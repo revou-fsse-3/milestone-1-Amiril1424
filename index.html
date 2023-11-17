@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A web application about Ciamis" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Amiril Mukminin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set-Up Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Link for icon hamburger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="./index.html"><img src="./_Assets/Logo SC fix.png" alt="logo"></a></li>
+            <input type="checkbox" onclick="ubahMode()" id="checkbox_DM">
+            <p>Dark Mode</p>
+            <input type="checkbox" id="check">
+            <span class="menu-bar">
+                <li><a href="./index.html"><strong>Home</strong></a></li>
+                <li><a href="#"><strong>Who we Are</strong></a></li>
+                <li><a href="#"><strong>Program</strong></a></li>
+                <li><a href="#"><strong>Events</strong></a></li>
+                <li><a href="#"><strong>Article</strong></a></li>
+                <li><a href="#"><strong>Contact Us</strong></a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    <!-- Slide show image -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./_Assets/Flyer-web1-2.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./_Assets/Flyer-web3-2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./_Assets/Flyer-web4-2.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Content -->
+    <main>
+        <section>
+            <!-- section 1 Expertise and Program -->
+            <div class="container">
+                <div id="one">
+                    <img src="./_Assets/expertise1.png" alt="expertise">
+                    <h1>Expertise</h1>
+                    <p>Set-Up Consulting is an institution of training, consulting, and audit which focus on 4
+                        expertise. Good Manufacturing Practices (GMP), Hazard Analysis Critical Control Point
+                        (HACCP), Halal Assurance, and Legal Product. Every single expertise is handled by trainer
+                        team, consultants, and auditors
+                        who
+                        tested and experienced on public trainings, in-house trainings, consultancy projects, and
+                        also
+                        audits or assessments in various local and multinational companies. </p>
+                </div>
+                <div id="two">
+                    <img src="./_Assets/program1.png" alt="Program">
+                    <h1>Program</h1>
+                    <p>Program on every expertise can be delivered as in-house trainings, public trainings,
+                        consultancy,
+                        and also audit/assessment. Some others programs may be customized programs i.e. Laboratory
+                        Management System, Calibration, Management of Document Control, Management Representative,
+                        System Gap Analysis, 5S/5R, Improvement System, and people assessment. </p>
+                </div>
+                <div id="three">
+                    <img src="./_Assets/Food-safety2.jpg" alt="food safety">
+                    <h1>Food Safety Compliance</h1>
+                    <p>When the FDA shows up for an inspection, you want your compliance assured. In addition to having
+                        a documented HACCP Food Safety Plan, we will ensure your facility has standard operating
+                        procedures in place for sanitation, cleaning, swabbing and lab testing.</p>
+                </div>
+                <div id="four">
+                    <img src="./_Assets/benefit.jpg" alt="Benefit Training">
+                    <h1>Benefit Training</h1>
+                    <p>There are many advantages of the food safety training program organized by Set-Up Consulting,
+                        such as: Intensive technical guidance, nationally recognized competency testing facilities,
+                        learning materials and training support equipment, training can be accessed online or offline,
+                        etc.</p>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section>
+            <div class="container-program">
+                <!-- Specification type of training -->
+                <div class="GMP">
+                    <img src="./_Assets/GMP.webp" alt="GMP">
+                    <h1>GMP Training</h1>
+                    <p>Set-Up Consulting is experts in providing GMP training. Good manufacturing practice (GMP) is a
+                        system for ensuring that products are consistently produced and controlled according to quality
+                        standards</p>
+                </div>
+                <div class="HACCP">
+                    <img src="./_Assets/HACCP.jpg" alt="HACCP">
+                    <h1>HACCP Training</h1>
+                    <p>Set-Up Consulting is experts in providing HACCP training. HACCP is a management system in which
+                        food safety is addressed through the analysis and control of biological, chemical, and physical
+                        hazards from raw material production, procurement and handling, to manufacturing, distribution
+                        and consumption of the finished product.</p>
+                </div>
+                <div class="Food-Handler">
+                    <img src="./_Assets/food-handler.png" alt="Food Handler">
+                    <h1>Food Handler Training</h1>
+                    <p>Set-Up Consulting is experts in providing Food Handler training. A food handler is anyone who
+                        works in a food business and who either handles food or touches surfaces that are likely to be
+                        in contact with food such as cutlery, plates and bowls.</p>
+                </div>
+                <div div class="Thermal">
+                    <img src="./_Assets/thermal.jpg" alt="Validation Thermal">
+                    <h1>Thermal Validation</h1>
+                    <p>Set-Up Consulting is experts in providing Thermal Validation training. Thermal validation is the
+                        process of validating / qualifying equipment and storage facilities to prove that they will
+                        create and maintain the temperatures they are designed for.</p>
+
+                </div>
+                <div class="Audit">
+                    <img src="./_Assets/audit.jpg" alt="Audit Internal">
+                    <h1>Food Safety Internal Audit</h1>
+                    <p>Set-Up Consulting is experts in providing Food Safety Internal Audit training. Internal food
+                        safety audits are systematic and independent assessments of your food safety practices,
+                        procedures and records. They are performed by your own staff or external consultants who are
+                        trained and qualified to audit your food safety system</p>
+                </div>
+
+                <!-- End container Program -->
+            </div>
+
+
+        </section>
+
+        <!-- Morph HTML -->
+        <section>
+            <!-- Use Grid Symetric -->
+
+        </section>
+        <!-- Section 3 Testiomoni -->
+        <section>
+
+
+            <section>
+
+
+
+            </section>
+
+    </main>
+    <!-- script JS -->
+    <script src="index.js"></script>
+</body>
+
+
+</html>
