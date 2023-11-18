@@ -57,3 +57,24 @@ function showSlides1() {
     dots1[slideIndex1 - 1].className += " active";
     setTimeout(showSlides1, 8000); // Change image every 2 seconds
 }
+
+// Slider automation event
+let slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+    let k;
+    let slides2 = document.getElementsByClassName("myevent");
+    let dots2 = document.getElementsByClassName("ev-dot");
+    for (k = 0; k < slides2.length; k++) {
+        slides2[k].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides2.length) { slideIndex2 = 1 }
+    for (k = 0; k < dots2.length; k++) {
+        dots2[k].className = dots2[k].className.replace(" active", "");
+    }
+    slides2[slideIndex2 - 1].style.display = "block";
+    dots2[slideIndex2 - 1].className += " active";
+    setTimeout(showSlides2, 8000); // Change image every 2 seconds
+}
