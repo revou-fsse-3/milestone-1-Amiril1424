@@ -42,7 +42,7 @@ We welcome any and all contributions! Here are some ways you can get started:
 # Set-Up Conculting web display
 This is the website of set-up consulting display
 
-![Set-UpConsulting](./Assets/Web-Set-up-cons.JPG)
+![Set-UpConsulting](./_Assets/Web-Set-up.JPG)
 
 # Code made by Amiril Mukminin
 
