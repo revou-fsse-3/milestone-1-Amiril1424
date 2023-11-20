@@ -1,6 +1,6 @@
 
 # This is the code of responsive HTML as Assignment study in week 2
-This is an assignment for "responsive HTML as Assignment study in week 2"
+This is an assignment for "responsive HTML as Assignment study of Milestone in Week 4"
 ***
 # Description
 Welcome to our project! This is a Set-Up Consulting Wbsite. It contain many program of food safety training. There Hazard Analysis Critical Control Point, Good Manufacturing Practices, Halal, and Legal Product. People can register training in website and contact Set-Up Consulting Company to held a food safety training. We hope you enjoy and we look forward to your contributions!
